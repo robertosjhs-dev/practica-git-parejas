@@ -13,9 +13,11 @@
 
     if(numero_Usuario === numero_Secreto){
         alert("¡Felicidades! Has adivinado el número secreto");
-    } else if(numero_Usuario != numero_Secreto){
+    } if(numero_Usuario != numero_Secreto){
         alert("El número que has elegido es no es el número secreto");
-    }  
+    }  else if (numero_Usuario > numero_Secreto) {
+        alert("El número introducido es mayor que el número secreto");
+    }
 
     </script>
 </body>
